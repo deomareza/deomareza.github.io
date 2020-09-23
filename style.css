@@ -5,6 +5,8 @@
 html,body{
   margin: 0;
   /* height: 100%; */
+  font-family: 'Nunito', sans-serif;
+
 }
 
 nav{
@@ -32,11 +34,12 @@ nav{
 }
 
 .navMenu li{
-  font-family: 'Nunito', sans-serif;
   display: inline-block;
-  padding: 10px 30px;
-  font-size: 1.2rem;
+  padding: 10px 40px;
+  font-size: 1.1rem;
   color: #87431d;
+  text-transform: uppercase;
+  letter-spacing: 3px;
 }
 
 
@@ -57,27 +60,57 @@ section .container{
 
 
 
-section h1{
-  font-family: 'Nunito', sans-serif;
-  font-size: 2rem;
+section h1 {
+  font-size: 2.5rem;
   font-weight: 700;
   color : #87431d;
   text-align: center;
   margin: 0;
-  padding: 30px 10px;
+  padding: 40px 10px 10px;
+}
+
+section h2{
+  font-size: 1.5rem;
+  font-weight: 500;
+  color : #87431d;
+  text-align: center;
+  margin: 0;
 }
 
 section img{
   position: relative;
   left: 50%;
   transform: translate(-50%,0);
-  width: 300px;
+  width: 400px;
+  padding-bottom: 30px;
 }
 
-.form{
-  position: absolute;
-  width: 20%;
-  display:inline-block;
-  background-color: red;
+.container .link{
+  width: 100%;
+  margin:auto;
+  text-align: center;
+
 }
 
+.container .link h3{
+  display: inline-block;
+  color: #f0a500;
+  padding: 0 30px
+}
+
+footer{
+  text-align:center;
+  background-color: #f8efd4;
+  height: 90px;
+  overflow: hidden;
+
+}
+
+footer h3{
+  position:relative;
+  top:40%;
+  margin:0;
+  padding:0;
+  color: #87431d;
+
+}
